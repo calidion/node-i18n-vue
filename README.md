@@ -4,6 +4,8 @@
 
 # I18n plugin for vue
 
+[demo](https://github.com/calidion/vue-i18n-demo)
+
 1. Import
 
 ```js
@@ -30,7 +32,7 @@ Vue.use(VueI18n, {
   options,
 });
 ```
-or if you want the localed to be saved.
+or if you want locales to be saved, your can use `storage` whith `window.localStorage`/`localStorage`:
 ```
 Vue.use(VueI18n, {
   options,
